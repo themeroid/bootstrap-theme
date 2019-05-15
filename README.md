@@ -1,6 +1,6 @@
 # [Bootstrap Multipurpose Theme]
 
-Camcharge Bootstrap multipurpose Theme is great UI kit which has huge components, section and online drag & drop editor for easy of use.
+Bootstrap multipurpose Theme is great UI kit which has huge components, section and online drag & drop editor for easy of use.
 
 **Table of Content**
 
