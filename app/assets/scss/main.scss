@@ -1,0 +1,21 @@
+// Core variables and mixins
+
+@import "variables.scss";
+@import "mixins.scss";
+// Global CSS
+@import "global.scss";
+// Components
+@import "navbar.scss";
+@import "header.scss";
+@import "timeline.scss";
+@import "feature.scss";
+@import "blog.scss";
+@import "team.scss";
+@import "testimonials.scss";
+@import "contact.scss";
+@import "footer.scss";
+@import "portfolio.scss";
+
+// boostrap
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "responsive.scss";

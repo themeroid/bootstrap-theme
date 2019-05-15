@@ -1,0 +1,267 @@
+// Global styling for this template
+body {
+  overflow-x: hidden;
+  @include body-font;
+}
+
+p {
+  line-height: 1.75;
+  @include source-sans-pro;
+}
+
+a {
+  color: $primary;
+  &:hover {
+    color: darken($primary, 10%);
+  }
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  @include heading-font;
+}
+
+.h100vh {
+  height: 100vh;
+}
+
+.vc {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+}
+
+// Button Styles
+.btn {
+  @include heading-font;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($primary, 7.5%) !important;
+    border-color: darken($primary, 7.5%) !important;
+    color: white;
+  }
+  &:active,
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  }
+}
+
+// Button outlined
+.btn-outlined {
+  background-color: transparent;
+  border-color: $primary;
+}
+
+// Highlight color customization
+::-moz-selection {
+  background: $primary;
+  text-shadow: none;
+}
+
+::selection {
+  background: $primary;
+  text-shadow: none;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+// margin
+.m0 {
+  margin: 0px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.mts {
+  margin-top: $margin-s;
+}
+.mtm {
+  margin-top: $margin-m;
+}
+.mtl {
+  margin-top: $margin-l;
+}
+.mbs {
+  margin-bottom: $margin-s;
+}
+.mbm {
+  margin-bottom: $margin-m;
+}
+.mbl {
+  margin-bottom: $margin-l;
+}
+
+// padding
+.p0 {
+  padding: 0px;
+}
+.pt10 {
+  padding-top: 10px;
+}
+.pt20 {
+  padding-top: 20px;
+}
+.pt30 {
+  padding-top: 30px;
+}
+.pt40 {
+  padding-top: 40px;
+}
+.pb10 {
+  padding-bottom: 10px;
+}
+.pb20 {
+  padding-bottom: 20px;
+}
+.pb30 {
+  padding-bottom: 30px;
+}
+.pb40 {
+  padding-bottom: 40px;
+}
+.pts {
+  padding-top: $padding-s;
+}
+.ptm {
+  padding-top: $padding-m;
+}
+.ptl {
+  padding-top: $padding-l;
+}
+.pbs {
+  padding-bottom: $padding-s;
+}
+.pbm {
+  padding-bottom: $padding-m;
+}
+.pbl {
+  padding-bottom: $padding-l;
+}
+.ps{
+  padding: $padding-s;
+}
+.pm{
+  padding: $padding-m;
+}
+.pl{
+  padding: $padding-l;
+}
+
+// colors
+.color-white {
+  color: $white !important;
+}
+.color-gray-500 {
+  color: $gray-500;
+}
+.color-gray-600 {
+  color: $gray-600;
+}
+.color-gray-700 {
+  color: $gray-700;
+}
+.color-gray-800 {
+  color: $gray-800;
+}
+.color-gray-900 {
+  color: $gray-900;
+}
+.color-black {
+  color: $black;
+}
+
+// bgcolors
+.bg-color-white {
+  background-color: $white;
+}
+.bg-color-gray-600 {
+  background-color: $gray-600;
+}
+.bg-color-gray-700 {
+  background-color: $gray-700;
+}
+.bg-color-gray-800 {
+  background-color: $gray-800;
+}
+.bg-color-gray-900 {
+  background-color: $gray-900;
+}
+.bg-black {
+  background-color: $black;
+}
+
+//
+.intro-subheading {
+  font-size: $fs-s;
+  @include source-sans-pro;
+}
+.intro-heading {
+  font-size: $fs-xl;
+  @include source-sans-pro;
+}
+
+.ovflow-h {
+  overflow: hidden;
+}
+.mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;      
+}
+
+
+// fonts
+// heading font family
+// contnet font family
+// buttons/menu/others font family

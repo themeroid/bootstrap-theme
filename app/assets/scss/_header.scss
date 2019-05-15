@@ -1,0 +1,30 @@
+// Styling for the masthead
+header.header {
+    h1 {
+      @include source-sans-pro;
+      font-weight: 300;
+      font-size: $fs-h-m;
+      line-height: 50px;
+    }
+    p {
+      color: $gray-600;
+      @include source-sans-pro;
+    }
+    color: white;    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    @include background-cover;    
+  }
+
+  @media (min-width: 768px) {
+  }
+  
+  .bg1{
+    background: -webkit-radial-gradient(left top,circle cover,rgb(12,180,206),rgb(0,108,255) 100%);
+    opacity: 0.8;
+  }
+
+  .bg2{
+    @include alpha-attribute('background-color', rgba(black, 0.6), white);
+  }

@@ -1,0 +1,33 @@
+// Styling for the team section
+.team {
+  h5 {
+    margin: 0px;
+  }
+  h6 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    @include body-font;
+  }
+  img {
+    width: 50%;
+    height: auto;
+  }
+  .social-icons {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    i {
+      font-size: 20px;
+      padding: 0px 5px 0px 5px;
+    }
+    .fa-twitter {
+      color: #55acee;
+    }
+    .fa-facebook {
+      color: #3b5998;
+    }
+    .fa-dribbble {
+      color: #ea4c89;
+    }
+  }
+}

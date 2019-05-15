@@ -1,0 +1,10 @@
+#testimonials {
+  .carousel-control-next,
+  .carousel-control-prev {
+    filter: invert(100%);
+  }
+  img {
+    width: 75px !important;
+    height: 75px !important;
+  }
+}

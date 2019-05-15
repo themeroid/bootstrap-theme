@@ -1,0 +1,29 @@
+@include media-breakpoint-up(xs);
+@include media-breakpoint-down(md) {
+  #mainNav {
+    .navbar-toggler {
+      color: $white;
+    }
+    background-color: transparent;
+    &.navbar-shrink {
+      border-bottom: 1px solid $gray-200;
+      background: $white;
+      .navbar-toggler {
+        color: $gray-700;
+      }
+    }
+  }
+  h1 {
+    font-size: 25px !important;
+    line-height: 30px !important; 
+  }
+  
+}
+
+// @include media-breakpoint-up(md) {
+
+// }
+
+// @include media-breakpoint-up(lg) {
+
+// }
